@@ -1,0 +1,120 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+body
+{
+    background-color:azure;
+    background-image: url("C:/Users/Yeshwanth/Downloads/castle-dungeon-brick-wall-cartoon-background-game-dark-ancient-fantasy-palace-corridor-interior-illu/2303.w064.n002.36B.p1.36.jpg");
+}
+#title
+{
+    height:50px;
+    background-color:white;
+    align-content: center;
+    text-align: center;
+    font-size: 30px;
+    border:5px solid black;
+    border-radius: 15px;
+}
+.outer
+{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner
+{
+    height:65vmin;
+    width:65vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1vmin;
+}
+.boxes
+{
+    height:39px;
+    width:39px;
+    border:1px solid white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+    color: white;
+}
+
+#start
+{
+    height:40px;
+    width:100px;
+    font-size: 20px ;
+    text-transform:uppercase ;
+    border-radius: 10px;
+
+}
+#pause
+{
+    height:40px;
+    width:100px;
+    font-size: 20px ;
+    text-transform:uppercase ;
+    border-radius: 10px;
+}
+#restart
+{
+    height:40px;
+    width:100px;
+    font-size: 20px ;
+    text-transform:uppercase ;
+    border-radius: 10px;
+}
+.start
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.cur
+{
+    display:flex;
+    font-size:30px;
+    color:white;
+}
+#num
+{
+    font-size:35px;
+    color:rgb(255, 38, 0);
+}
+#track
+{
+    font-size:25px;
+    color:white;
+}
+
+
+.boxes:hover
+{
+    cursor: pointer;
+}
+#start:hover
+{
+    cursor: pointer;
+}
+#pause
+{
+    cursor: pointer;
+}
+#restart
+{
+    cursor: pointer;
+}
+
+
+
